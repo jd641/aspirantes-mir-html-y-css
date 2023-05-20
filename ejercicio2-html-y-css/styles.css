@@ -1,0 +1,38 @@
+.Container {
+  background: linear-gradient(180deg, #00fffd, blue);
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+  color: white; /*Heredable*/
+  box-shadow: 5px 5px 5px 2px black;
+  display: grid;
+  font-family: sans-serif;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+h1 {
+  margin-bottom: unset;
+}
+
+.Section2, .Section3, .Section4, .Section5 {
+  margin-top: 20px;
+}
+
+input, select{
+  width: 100%;
+  padding: 7px;
+}
+
+input[type=checkbox] {
+  width: auto;
+  padding: 7px;
+}
+
+ button {
+   padding: 5px 15px 5px 15px;
+   margin-top: 7px;
+   width: min-content;
+   justify-self: end;
+ }
